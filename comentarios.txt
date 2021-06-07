@@ -6,3 +6,6 @@ Configurando as dependencias do prjeto
 
 Configurando o eslint no projeto
 - eslint ajuda no padrão de codigo dentro do projeto
+
+1° Passo: npm install -D @typescript-eslint/eslint-plugin eslint @typescript-eslint/parser
+2° Passo: criar configuração do eslint
