@@ -1,0 +1,34 @@
+{
+  "name": "curso_nodejs_do_basico_a_producao",
+  "version": "1.0.0",
+  "description": "Typescript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroMelloo/curso_nodejs_do_basico_a_producao.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Leandro Mello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroMelloo/curso_nodejs_do_basico_a_producao/issues"
+  },
+  "homepage": "https://github.com/LeandroMelloo/curso_nodejs_do_basico_a_producao#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^15.12.1",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}

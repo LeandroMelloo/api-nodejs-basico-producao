@@ -1,0 +1,8 @@
+Configurando as dependencias do prjeto 
+1° Passo: npm install -D typescript
+2° Passo: npm install -D @types/node
+3° Passo: npm install module-alias
+4° Passo: npm install -D @types/module-alias
+
+Configurando o eslint no projeto
+- eslint ajuda no padrão de codigo dentro do projeto
