@@ -9,3 +9,8 @@ Configurando o eslint no projeto
 
 1° Passo: npm install -D @typescript-eslint/eslint-plugin eslint @typescript-eslint/parser
 2° Passo: criar configuração do eslint
+
+Configurando o ts-node e ts-node-dev
+- ajuda em DEV a compilar rapidamente as modificações da aplicação
+
+1° Passo: npm install -D ts-node-dev
