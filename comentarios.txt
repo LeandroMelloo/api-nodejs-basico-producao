@@ -14,3 +14,16 @@ Configurando o ts-node e ts-node-dev
 - ajuda em DEV a compilar rapidamente as modificações da aplicação
 
 1° Passo: npm install -D ts-node-dev
+
+Configurando o Jest
+
+teste de unitario - para rodar em paralelo
+biblioteca supertest é utilizada para testes end2end - ponta a ponta, ele sobe um servidor de teste
+
+1° Passo: npm install -D jest ts-jest @types/jest
+2° Passo: configuração global para teste de unidade
+3° Passo: configuração para teste funcional
+4° Passo: criar o arquivo jest.config.js na raiz do projeto
+5° Passo: criar o arquivo jest.config.js dentro da pasta test
+6° Passo: criar o arquivo jest.setup.ts dentro da pasta test
+7° Passo: npm install -D supertest @types/supertest
